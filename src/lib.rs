@@ -2,7 +2,7 @@
 //! If you need to handle errors externally or consolidate them in a single location, `err-handler` is your logical choice
 //! ```toml
 //! [dependencies]
-//! err-handler = "0.1.0"
+//! err-handler = "0.1.1"
 //! ```
 //! # Examples
 //! ```rust
