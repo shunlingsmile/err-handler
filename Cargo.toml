@@ -1,0 +1,20 @@
+[package]
+name = "err-handler"
+version = "0.1.0"
+edition = "2021"
+authors = ["shunling <shunlingsmile@gmail.com>"]
+description = "a non-intrusive error handling marco"
+keywords = ["macros", "error","handler"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/shunlingsmile/err-handler"
+documentation = "https://docs.rs/err-handler"
+
+[lib]
+proc-macro = true
+[dependencies]
+proc-macro2 = "1.0.79"
+syn = { version = "2.0.53", features = ["full"] }
+quote = "1.0.35"
+
+[dev-dependencies]
+thiserror = "1.0.58"
