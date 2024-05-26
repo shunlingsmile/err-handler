@@ -1,5 +1,5 @@
-use thiserror::Error;
 use err_handler::err_handler;
+use thiserror::Error;
 
 #[derive(Debug, Error)]
 enum Err {
@@ -17,7 +17,7 @@ fn task(_v: i32) -> Result<i32, Err> {
 fn task_handler(e: Err) -> Result<i32, Err> {
     match e {
         Err::Err1 => Ok(100),
-        _ => Err(e)
+        _ => Err(e),
     }
 }
 
