@@ -1,6 +1,6 @@
 [package]
 name = "err-handler"
-version = "0.1.1"
+version = "1.0.0"
 edition = "2021"
 authors = ["shunling <shunlingsmile@gmail.com>"]
 description = "a non-intrusive error handling marco"
